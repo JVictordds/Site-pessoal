@@ -13,7 +13,6 @@
         <div class="container">
             <h1>Olá, eu sou [Seu Nome]</h1>
             <p>Tecnico em desenvolvimento de sistemas</p>
-            <a href="#contato" class="btn">Entre em Contato</a>
         </div>
     </header>
 

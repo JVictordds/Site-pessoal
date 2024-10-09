@@ -11,8 +11,7 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <h1>Olá, eu sou [Seu Nome]</h1>
-            <p>Tecnico em desenvolvimento de sistemas</p>
+            <h1>Bem vindos ao meu site pessoal!</h1>
         </div>
     </header>
 
@@ -20,7 +19,8 @@
     <section id="sobre" class="section">
         <div class="container">
             <h2>Sobre Mim</h2>
-            <p>Olá! Eu sou [Seu Nome], um apaixonado por tecnologia, design e desenvolvimento. Tenho experiência em criação de sites, aplicativos e design gráfico. Sempre buscando aprender e inovar, estou em constante evolução no mundo digital.</p>
+            <p>Tecnico em desenvolvimento de sistemas</p>
+            <p>Olá! Eu sou João Victor, faço parte do curso tecnico em desenvolvimento de sistemas</p>
         </div>
     </section>
 

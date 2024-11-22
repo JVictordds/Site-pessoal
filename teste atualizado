@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Gamer - Potência para Jogar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset de alguns estilos padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #1d1d1d;
+            color: #fff;
+            background-image: url('https://example.com/background.jpg'); /* Imagem de fundo */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 20px 0;
+            text-align: center;
+            color: #ff6f00;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ff6f00;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        /* Seções principais */
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff6f00;
+        }
+
+        section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        section ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        section ul li {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .pc-image {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Cards para PCs */
+        .pc-card {
+            background-color: rgba(40, 40, 40, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .pc-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        .pc-card h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #ff6f00;
+        }
+
+        .pc-card p {
+            font-size: 1.1em;
+            color: #ccc;
+        }
+
+        .pc-card ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        .pc-card ul li {
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            text-align: center;
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 15px 0;
+            color: #ff6f00;
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 2em;
+            }
+
+            .pc-card {
+                padding: 15px;
+            }
+
+            .pc-card h3 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GameByteTech</h1>
+    </header>
+
+    <section id="descricao">
+        <h2>Descrição</h2>
+        <p>O GameByteTech foi criado para entregar uma experiência de jogo fluida e de alta performance, com as últimas tecnologias de hardware e design. Prepare-se para jogar os títulos mais exigentes com gráficos impressionantes e velocidade incomparável!</p>
+        <img src="pc-gamer.jpg" alt="GameByteTech" class="pc-image">
+    </section>
+
+    <section id="componentes">
+        <h2>Componentes do PC e Suas Funções</h2>
+        <p>Para garantir uma experiência de jogo de alta performance, é necessário entender a função de cada componente essencial no seu PC Gamer. Cada peça é fundamental para otimizar o desempenho e garantir a qualidade gráfica e de processamento dos jogos mais exigentes. Confira a função de cada um deles:</p>
+        
+        <div class="pc-card">
+            <h3>Gabinete</h3>
+            <p>O gabinete é a estrutura que contém todos os componentes do PC. Além de oferecer uma boa organização interna, ele tem o papel de garantir a ventilação adequada, evitando o superaquecimento das peças.</p>
+            <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/g/ag-odyssey-mini-bk9.jpg" alt="Gabinete" />
+        </div>
+
+        <div class="pc-card">
+            <h3>Processador (CPU)</h3>
+            <p>O processador, ou CPU, é o "cérebro" do computador. Ele realiza os cálculos e processamentos necessários para que os jogos e programas rodem com fluidez. Quanto mais rápido e potente o processador, melhor será o desempenho em jogos pesados.</p>
+            <img src="https://images.tcdn.com.br/img/img_prod/1041964/processador_intel_core_i7_12700_12a_geracao_2_1ghz_4_9ghz_max_turbo_cache_25mb_lga_1700_2417_1_bf51776abc4aaab844d727fdd6c4b9d4.jpg" alt="Processador" />
+        </div>
+
+        <div class="pc-card">
+            <h3>Cooler</h3>
+            <p>O cooler é responsável pela dissipação de calor dos componentes, principalmente do processador e placa de vídeo. Ele mantém a temperatura dos equipamentos sob controle, evitando o superaquecimento e garantindo um desempenho estável.</p>
+            <img src="https://images.kabum.com.br/produtos/fotos/130040/air-cooler-rise-mode-gamer-g800-180mm-rgb-rm-ac-o8-rgb_1663775981_gg.jpg" alt="Cooler" />
+        </div>
+
+        <div class="pc-card">
+            <h3>Placa Mãe</h3>
+            <p>A placa mãe conecta todos os componentes do PC. Ela é a principal placa de circuito que integra o processador, memória RAM, placa de vídeo e outros periféricos, permitindo que todos os componentes comuniquem-se entre si de forma eficiente.</p>
+            <img src="https://mirandacomputacao.jetassets.com.br/produto/46874-principal.png" alt="Placa Mãe" />
+        </div>
+
+        <div class="pc-card">
+            <h3>Placa de Vídeo (GPU)</h3>
+            <p>A placa de vídeo é o componente responsável pelo processamento dos gráficos. Em jogos, ela é crucial para renderizar imagens e vídeos em alta qualidade. Quanto mais potente for a placa de vídeo, melhor será a qualidade gráfica e a fluidez nas cenas mais complexas.</p>
+            <img src="https://img.terabyteshop.com.br/produto/m/placa-de-video-gigabyte-nvidia-geforce-rtx-4060-eagle-oc-8gb-gddr6-dlss-ray-tracing-gv-n4060eagle-oc-8gd_172916.png" alt="Placa de Vídeo" />
+        </div>
+
+        <div class="pc-card">
+            <h3>Fonte de Alimentação</h3>
+            <p>A fonte de alimentação é responsável por fornecer energia para o funcionamento de todos os componentes do PC. É importante escolher uma fonte de qualidade e com potência adequada ao seu setup para garantir a estabilidade e evitar danos aos componentes.</p>
+            <img src="https://s2-techtudo.glbimg.com/mx31XGwYIutMUhqkkJk5sAl2KtE=/0x0:695x453/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/M/g/2gs2zxRe6A2OOA1Ff6Xw/2015-02-09-entenda-como-funciona-uma-fonte-chaveada-e-confira-as-mais-populares2.jpg" alt="Fonte de Alimentação" />
+        </div>
+
+        <div class="pc-card">
+            <h3>Memória RAM</h3>
+            <p>A memória RAM (Random Access Memory) armazena temporariamente as informações que o processador está utilizando no momento. Uma maior quantidade de RAM melhora o desempenho do sistema e permite que jogos e aplicativos rodem mais rapidamente.</p>
+             <img src="https://http2.mlstatic.com/D_NQ_NP_971321-MLA48636416230_122021-O.webp" alt="Memória RAM" />
+        </div>
+
+        <div class="pc-card">
+            <h3>HD/SSD</h3>
+            <p>O HD (Hard Drive) e o SSD (Solid State Drive) são os dispositivos responsáveis pelo armazenamento dos seus dados. O SSD é mais rápido e eficiente, oferecendo tempos de carregamento menores e maior estabilidade em jogos e sistemas operacionais.</p>
+            <img src="https://s.zst.com.br/cms-assets/2022/08/o_que_e_hd_corpo4-1.webp" alt="HD/SSD" />
+        </div>
+    </section>
+
+    <footer>
+        <p>Compre seus componentes de PC em:</p>
+        <ul>
+            <li><a href="https://www.kabum.com.br/?utm_id=72385815&gad_source=1&gclid=EAIaIQobChMIsJni6JDiiQMVlihECB3oRBelEAAYASAAEgJpufD_BwE" target="_blank" style="color: #ff6f00;">Kabum</a></li>
+            <li><a href="https://www.terabyteshop.com.br/" target="_blank" style="color: #ff6f00;">Terabyte Shop</a></li>
+            <li><a href="https://www.pichau.com.br/?gad_source=1&gclid=EAIaIQobChMIit2mypDiiQMVdTFECB1hhhVuEAAYASAAEgJrXPD_BwE" target="_blank" style="color: #ff6f00;">Pichau</a></li>
+            <li><a href="https://www.amazon.com.br/Computadores-Informatica/b/?ie=UTF8&node=16339926011&ref_=nav_cs_pc&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522&promotionsSearchStartIndex=0&promotionsSearchLastSeenAsin=B0DKZ5SYPG" target="_blank" style="color: #ff6f00;">Amazon</a></li>
+        </ul>
+        <p>&copy; 2024 GameByteTech. Todos os direitos reservados.</p>
+    </footer>    
+    

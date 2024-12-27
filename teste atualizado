@@ -232,6 +232,33 @@
         </div>
     </section>
 
+    <section id="marcas">
+        <h2>Marcas Populares de Processadores e Placas de Vídeo</h2>
+        <p>Além de escolher os componentes ideais para o seu PC gamer, é importante saber quais são as marcas mais renomadas no mercado. Essas marcas têm uma longa história de inovação e confiabilidade, oferecendo alto desempenho e qualidade. Aqui estão algumas das principais opções disponíveis:</p>
+    
+        <div class="pc-card">
+            <h3>Processadores</h3>
+            <p>Os processadores são uma parte crucial do desempenho do seu PC. As marcas mais populares de processadores incluem:</p>
+            <ul>
+                <li><strong>Intel</strong> – Uma das maiores fabricantes de processadores do mundo, conhecida por sua linha de CPUs para todos os tipos de usuários, desde os mais acessíveis até os mais potentes. O Intel Core i9, i7, i5 e i3 são excelentes opções para gamers e entusiastas de alto desempenho.</li>
+                <li><strong>AMD</strong> – Outra gigante no mercado de processadores, a AMD oferece a linha Ryzen, que é muito popular entre os gamers e entusiastas de PC. A AMD é conhecida por oferecer um ótimo desempenho a preços mais competitivos, especialmente em multitarefa e jogos pesados.</li>
+            </ul>
+            <img src="https://e7.pngegg.com/pngimages/594/832/png-clipart-intel-logo-intel-core-i5-central-processing-unit-intel-hd-and-iris-graphics-intel-logo-blue-text-thumbnail.png" alt="Logo Intel" style="max-width: 200px; margin-top: 20px;">
+            <img src="https://e7.pngegg.com/pngimages/204/591/png-clipart-computex-advanced-micro-devices-ryzen-dell-logo-computer.png" alt="Logo AMD" style="max-width: 200px; margin-top: 20px;">
+        </div>
+    
+        <div class="pc-card">
+            <h3>Placas de Vídeo</h3>
+            <p>A placa de vídeo é fundamental para uma experiência visual de alta qualidade nos jogos. As principais marcas de placas de vídeo incluem:</p>
+            <ul>
+                <li><strong>NVIDIA</strong> – A NVIDIA é uma das líderes mundiais no mercado de placas de vídeo, famosa por sua linha de placas GeForce, como a RTX 4060, RTX 4080, e a poderosa RTX 4090. Suas placas são conhecidas pelo suporte ao Ray Tracing, DLSS e excelente desempenho gráfico em jogos e tarefas de renderização.</li>
+                <li><strong>AMD Radeon</strong> – A AMD também fabrica placas de vídeo poderosas com sua linha Radeon. As placas Radeon RX são ótimas para quem busca uma performance gráfica de alto nível, e modelos como RX 6900 XT competem diretamente com as placas NVIDIA em termos de performance e custo-benefício.</li>
+            </ul>
+            <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/02-nvidia-logo-color-grn-500x200-4c25-p@2x.png" alt="Logo NVIDIA" style="max-width: 200px; margin-top: 20px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/AMD_Radeon_graphics_logo_2016.svg/1099px-AMD_Radeon_graphics_logo_2016.svg.png" alt="Logo AMD Radeon" style="max-width: 200px; margin-top: 20px;">
+        </div>
+    </section>
+    
     <footer>
         <p>Compre seus componentes de PC em:</p>
         <ul>
